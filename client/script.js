@@ -68,7 +68,7 @@ const handleSubmit = async (e) => {
   const messageDiv = document.getElementById(uniqueId)
   loader(messageDiv)
   // fetch data from server
-  const response = await fetch("http://localhost:5000", {
+  const response = await fetch("https://chatgpt3-lceq.onrender.com/", {
     method:"POST",
     headers:{
       "Content-Type":"application/json"
